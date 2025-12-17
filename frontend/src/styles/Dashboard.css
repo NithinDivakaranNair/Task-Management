@@ -1,0 +1,91 @@
+.dashboard-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-container button {
+  padding: 8px 12px;
+  margin-left: 5px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dashboard-container .logout-btn {
+  background-color: #dc3545;
+  color: white;
+  float: right;
+}
+
+.dashboard-container .logout-btn:hover {
+  background-color: #a71d2a;
+}
+
+.dashboard-container .add-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.dashboard-container .add-btn {
+  background-color: #007bff;
+  color: white;
+  margin-left: 10px;
+}
+
+.dashboard-container .add-btn:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.dashboard-container li button {
+  margin-left: 5px;
+}
+
+.dashboard-container .toggle-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.dashboard-container .toggle-btn:hover {
+  background-color: #1e7e34;
+}
+
+.dashboard-container .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.dashboard-container .delete-btn:hover {
+  background-color: #a71d2a;
+}
